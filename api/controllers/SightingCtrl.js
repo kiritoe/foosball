@@ -1,0 +1,1 @@
+var Sighting = require('../models/Sighting');
