@@ -1,0 +1,27 @@
+{
+  "name": "foosball",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiritoe/foosball.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiritoe/foosball/issues"
+  },
+  "homepage": "https://github.com/kiritoe/foosball#readme",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "mongojs": "^1.3.0",
+    "nodemon": "^1.4.1"
+  }
+}
