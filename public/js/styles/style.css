@@ -12,4 +12,9 @@ body {
   font-family: sans-serif;
 }
 
-
+.boxed {
+	border: 2px solid black;
+	width: 40%;
+	height: 45%;
+	background-color: grey;
+}

@@ -8,6 +8,7 @@ var cors = require('cors');
 var app = express();
 var data = {'message': 'did you get this'};
 
+app.use(express.static(__dirname + '/public'));
 //mongoDB connection
 var port = 8080
 var mongoUri = 'mongodb://localhost:27017/foosball'
