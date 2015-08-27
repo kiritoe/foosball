@@ -1,4 +1,4 @@
-angular.module('foosball').controller('homeCtrl', function(){
+angular.module('foosball').controller('homeCtrl', function($scope){
 
-	
+	$scope.test = 'i am beter then every';
 })

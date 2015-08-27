@@ -19,5 +19,15 @@ body {
 	background-color: 
 }
 .menu {
-  color: black;
+ float: right;
+ padding: 10%;
+}
+
+.wrapper {
+  background: url(http://sd.keepcalm-o-matic.co.uk/i/keep-calm-and-play-foosball-5.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 }

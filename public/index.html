@@ -7,20 +7,21 @@
 <body ng-controller="MainCtrl">
 	<div class="menu">
     	<ul>
-        	<li><a href="#/"> Home </a></li>
+        	<li><a href="#/home"> Home </a></li>
     	</ul>
     	<ul>
-        	<li><a href="#/"> profile </a></li>
+        	<li><a href="#/profile"> Profile </a></li>
     	</ul>
     </div>
 	<div class='boxed'>
-	 	mackay wins 6 loses 22
-	 	<P>sam wins 22 loses 6</P>
+	 	mackay wins 9 loses 24
+	 	<P>sam wins 24 loses 9</P>
 	</div>
 	<div id="bracket-content">			
 		<textarea class="bracket-compose" placeholder=""/></textarea>
 	</div>
-	<button type="button">CLICK ME!</button> 
+	<button type="button">CLICK ME!</button>
+	<ng-view></ng-view> 
 
 
 
