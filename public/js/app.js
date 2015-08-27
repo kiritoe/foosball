@@ -7,8 +7,12 @@ app.config(function($routeProvider){
 		controller: 'homeCtrl'
 	})
 	.when('/profile', {
-		templateUrl: '/js/view/prfile/profile.html',
+		templateUrl: '/js/view/profile/profile.html',
 		controller: 'profileCtrl'
+	})
+	.when('/login/register', {
+		templateUrl: '/js/view/login-register/login.html',
+		controller: 'loginCtrl'
 	})
 	.otherwise({
 			redirectTo: '/'
