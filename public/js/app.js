@@ -6,16 +6,16 @@ app.config(function($routeProvider){
 		templateUrl: '/js/view/home.html',
 		controller: 'homeCtrl'
 	})
-	.when('/profile', {
-		templateUrl: '/js/view/profile/profile.html',
+	
+	.when('/suck/profile', {
+		templateUrl: '/js/view/suck/profile.html',
 		controller: 'profileCtrl'
 	})
+
 	.when('/login/register', {
 		templateUrl: '/js/view/login-register/login.html',
 		controller: 'loginCtrl'
 	})
-	.otherwise({
-			redirectTo: '/'
-	})
 
+	
 })
